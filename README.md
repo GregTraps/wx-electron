@@ -27,7 +27,10 @@ install [electron-builder](https://github.com/electron-userland/electron-builder
 
 then  
 
-  `npm run dist
-  //or you can 
-  build`
+  ```
+  npm run dist
+  //or you can
+  build
+  ```  
+  
 check you app in dist/
