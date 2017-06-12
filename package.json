@@ -1,0 +1,20 @@
+{
+  "name": "wx-electron",
+  "description": "weixin packed in electron",
+  "author": "Greg",
+  "version": "0.0.1",
+  "main": "main.js",
+  "scripts": {
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.13"
+  },
+  "build": {
+    "appId": "com.electron.weixin",
+    "linux": {
+      "category": "Utility"
+    }
+  }
+}
